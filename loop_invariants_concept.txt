@@ -1,0 +1,18 @@
+JUSTIFICATION TECHNIQUES: 
+
+Loop Invariant
+==============
+
+An Invariant Loop is a condition that remains true before and after each iteration of a loop. It is a theoretical tool used in computer science to help test the correctness of algorithms, especially those that use loops.
+
+Real example: 
+
+Insertion Sort Algorithm
+
+def sort_by_insert(array:list):
+    for item in range(len(1, array)):
+	currentArrayItem = array[item]
+
+	leftIndex = item-1
+
+	while leftIndex >= 0 and currentArrayItem < array[leftIndex]
